@@ -8,12 +8,12 @@ trigger:
 
 strategy:
   matrix:
-    jdk17_linux:
+    jdk11_linux:
       imageName: "ubuntu-latest"
-      jdkVersion: "1.17"
-    jdk17_windows:
+      jdkVersion: "1.11"
+    jdk11_windows:
       imageName: "windows-latest"
-      jdkVersion: "1.17"
+      jdkVersion: "1.11"
   maxParallel: 2
 
 pool:
